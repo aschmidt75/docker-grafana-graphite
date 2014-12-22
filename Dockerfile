@@ -100,7 +100,7 @@ ADD     ./supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 EXPOSE  80
 
 # StatsD UDP port
-EXPOSE  8125/udp
+EXPOSE  8125
 
 # StatsD Management port
 EXPOSE  8126
